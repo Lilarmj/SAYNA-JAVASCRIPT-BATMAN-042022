@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: #FFF;
+}
+
+/*header*/
+header {  
+  overflow: hidden;
+  background: url(../SAYNA-JAVASCRIPT-BATMAN-042022/Assets/Illustrations/Home/Bathome1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;  
+}
+#menu-top {
+  display: inline;
+}
+nav {
+  display: flex;  
+}
+.logo {
+  float: left;
+  display: flex; 
+  padding-bottom: 20px;
+  margin: 60px 50px;
+}
+.logo img {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.menu {    
+  display: flex;
+  text-decoration: none;
+  padding-left: 60%;
+  padding-top: 50px;
+  text-transform: uppercase;  
+}
+ul {
+  list-style-type: none;
+  float: right;  
+  font-size: 25px; 
+}
+li {
+  display: inline;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+  color: #FFF;
+  text-decoration: none;  
+}
+.intro {
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 200px;
+}
+.heros {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+.btnintro {  
+  background: linear-gradient(90deg, #dfd9d97e, #5f0808a2);
+  color: #FFFFFF;
+  border: none;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding: 20px 40px;   
+  text-transform: uppercase;
+}
+.heros-adv {
+  margin-top: 50px;
+}
+
+/*main*/
+.fleche-center {
+  text-align: center;
+}
+.title {
+  font-family: Batman;
+  font-size: 3em;
+  font-weight: 50;
+  left: -50%;
+}
+.cinema {
+  color: #FFFFFF;  
+  text-align: justify;
+  padding: 50px; 
+  margin-left: 150px;
+  margin-right: 200px; 
+}
+.bathome-group1 {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;  
+  margin: 50px 350px;
+}
+.bathome-group1 img {
+  padding: 20px;
+  width: 50%;
+}
+.bathome-group2 {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;  
+  margin: 20px 350px;
+}
+.nemesis {
+  color: #FFFFFF;  
+  text-align: justify;
+  padding: 50px; 
+  margin-left: 150px;
+  margin-right: 200px;
+}
+.bathome-group2 img {
+  padding: 20px;
+  width: 50%;
+}
+.multimedia {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.multimedia img {
+  text-align: center;
+  width: 80%;
+  margin: 20px 0;
+}
+
+/*Prenons contact*/
+.formulaire {
+  background: linear-gradient(90deg, #4e4e45, #132c38);
+  color: #FFFFFF;  
+}
+.formulaire h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;  
+  padding-top: 50px;
+}
+.formulaire label {
+  font-weight: bold;
+  font-size: 1.4em;
+  text-transform: uppercase;  
+}
+form {
+  padding: 20px 100px;
+  margin: 0 150px;
+}
+form div > input, form div > select {
+  background-color: transparent;
+  border: none;  
+  color: #7a7a7a;
+}
+form div > input, form div > select {
+  display: flex;  
+  border: none;
+  border-bottom: 1px solid #e6e6e6; 
+  font-size: 17px;
+  font-weight: 500;   
+  margin-top: 20px;
+  width: 100%;
+}
+.newsletter {
+  margin-top: 30px;
+}
+.checkbox {
+  display: flex;
+  position: relative;  
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+.checkbox input {  
+  margin: 15px 10px;
+  height: 20px;
+  width: 20px;    
+}
+.checkbox input :checked + label {
+  content: '✕';
+  position: absolute;
+  color: #19587D;
+  line-height: 0;
+}
+.checkbox p {
+  font-size: 18px;
+  color: #a1a0a0;
+}
+form input option {
+  background: linear-gradient(90deg, #4e4e45, #132c38);
+}
+.rubriques {
+  margin-left: 150px;
+}
+.rubriques .btnRubrique {
+  background-color: transparent;
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(90deg, #EDDEBF, #19587D) 1;
+  color: #FFFFFF;
+  padding: 10px 30px;
+  margin: 20px 20px 30px 20px;  
+}
+.form-button {
+  background: linear-gradient(90deg, #b8a2a2, #B11313);
+  color: #FFFFFF;
+  border: none;
+  margin: 40px 50px 20px 300px;
+  padding: 20px 50px;   
+  text-transform: uppercase;
+}
+
+/*Diapo citations*/
+.guillemets1 {
+  margin: 50px 50px 50px 150px;
+}
+.guillemets2 {
+  margin-left: 1000px;
+  margin-bottom: 50px;
+}
+.mySlides {display: none;}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;  
+  height: 15vh;
+}
+
+.text{
+  color: #FFF !important;
+  text-align: center;
+  margin: 20px 250px 20px 250px;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0 2px;
+  background-color: transparent;
+  border: 1px solid #19587D;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #19587D;
+}
+
+/* Fading animation */
+.fadei {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fadei {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*Footer*/
+#project {
+  color: #FFFFFF;
+  text-align: center;
+}
+.copyright {
+  display: flex;
+  margin: 50px 300px;
+}
+.copyright img {
+  padding: 10px;
+}
+.copyright p {
+  font-size: small;
+}
+.icones {
+  margin: 20px 60px; 
+}
+.icones img {
+  padding: 0 10px;
+}
+.icones .media {
+  padding: 10px 10px;
+}
